@@ -1,0 +1,3 @@
+FROM alpine:latest
+RUN apk update && apk add firefox ttf-dejavu
+CMD /usr/bin/firefox
