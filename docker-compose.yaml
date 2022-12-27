@@ -14,7 +14,7 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile_gui
-    image: image-gui:latest	
+    image: image-gui:latest
     container_name: alpine-gui
     environment:
       - DISPLAY=${DISPLAY}
